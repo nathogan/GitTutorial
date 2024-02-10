@@ -77,6 +77,16 @@ Open filename.py. You should see some arrows
 and the word HEAD, the first code, some equal signs, 
 the second code, and some arrows followed by A.
 
+```
+<<<<<<< HEAD
+print('hello world')
+print('hello sun')
+=======
+for x in range(5):
+    print('I can count to ' + str(x))
+>>>>>>> A
+```
+
 If we want the order to be this way, delete the arrows,
 branch names and equal signs, otherwise put the
 code together however you want it. When you are done,
