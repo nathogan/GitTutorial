@@ -101,3 +101,15 @@ if you cloned a repo from github or somewhere,
 then you would be able to then push your commits
 using ```git push remotename main``` where remotename
 is the name of your remote repo.
+
+If you wanted to clone a repo (for example this repo),
+head back to the desktop using ```cd ..``` to move
+one level up and type ```git clone https://github.com/nathogan/GitTutorial```,
+which will make a new repo, however this time with a remote
+repository as well. This means that if you make a change
+to the markdown file that this tutorial is comprised
+of, you can add, commit, and finally push your changes.
+This is in fact how I am editing this document, every time I
+need to add something, like some of the code, I push the code 
+to the online github repo, which is how you are able to see
+the most up-to-date version.
