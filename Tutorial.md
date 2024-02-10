@@ -21,16 +21,24 @@ and write some simple code, let us start with
 and add this file to the staging area with 
 ```git add filename.py```. What this does
 is it saves your work to a special area
-which can then be included in the actual repo
-(since working locally does not add it to the repo
-itself, which means that you can work on code in pieces
-without ruining the code in the repo yet).
+which can then be included in the local repo
+(since working on the "working tree" 
+does not add the code to the repo
+automatically, which means that you 
+can work on code in pieces
+without ruining the code in the local repo).
 Commit it now using the ```git commit filename.py```.
 
 Then you will have to write a comment describing
 what the commit is. Write something like "first
 commit to main". To save using vim, the terminal
 text editor, you have to press 'esc' ':wq'.
+
+Another way to do this is to use 
+```git commit filename.py -m message``` or 
+```git commit -a -m message``` where message is the 
+comment for this specific commit
+(-a will commit everything that has been added so far).
 
 This should commit your first bit of code to
 your repository. Committing is basically 
