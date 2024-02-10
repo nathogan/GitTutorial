@@ -21,8 +21,11 @@ and write some simple code, let us start with
 and add this file to the staging area with 
 ```git add filename.py```. What this does
 is it saves your work to a special area
-which can then be pushed into the main branch.
-Push it now using the ```git commit filename.py```.
+which can then be included in the actual repo
+(since working locally does not add it to the repo
+itself, which means that you can work on code in pieces
+without ruining the code in the repo yet).
+Commit it now using the ```git commit filename.py```.
 
 Then you will have to write a comment describing
 what the commit is. Write something like "first
